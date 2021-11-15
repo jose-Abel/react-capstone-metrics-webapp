@@ -82,6 +82,10 @@ Contributions, issues, and feature requests are welcome!
 
 This project is MIT licensed.
 
+## Acknowledgments
+
+A special thanks to original design idea by [Nelson Sakwa](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>) on Behance.
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
