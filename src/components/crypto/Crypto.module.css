@@ -1,0 +1,23 @@
+.crypto {
+  padding: 3rem 1rem;
+  color: #fff;
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.darkerBlue {
+  background-color: #3f61a2;
+}
+
+.lighterBlue {
+  background-color: #4269b0;
+}
+
+.cryptoImage {
+  width: 5rem;
+  height: 5rem;
+}

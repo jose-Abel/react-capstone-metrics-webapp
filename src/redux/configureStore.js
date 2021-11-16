@@ -1,15 +1,12 @@
 /* eslint-disable no-underscore-dangle */
 import {
-  createStore, combineReducers, applyMiddleware, compose,
+  createStore, applyMiddleware, compose,
 } from 'redux';
 import thunk from 'redux-thunk';
-
-const reducer = combineReducers({
-
-});
+import cryptosReducer from './cryptos/cryptos';
 
 const store = createStore(
-  reducer,
+  cryptosReducer,
   compose(
     applyMiddleware(thunk),
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),

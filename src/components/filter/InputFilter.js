@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomePage = () => {
+const InputFilter = () => {
   const dummydata = [];
 
   return (
@@ -10,4 +10,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default InputFilter;
