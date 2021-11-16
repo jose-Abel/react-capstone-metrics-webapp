@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCryptosList } from '../../../redux/cryptos/cryptos';
 import Crypto from '../../crypto/Crypto';
@@ -9,6 +9,7 @@ import classes from './HomePage.module.css';
 const HomePage = () => {
   const cryptos = useSelector((state) => state);
   const dispatch = useDispatch();
+  const [searched, setSearched] = useState('');
 
   useEffect(() => {
     const loading = async () => {
@@ -23,10 +24,11 @@ const HomePage = () => {
   return (
     <>
       <Header />
-      <InputFilter />
+      <InputFilter setSearched={setSearched} />
       <div className={classes.cryptos}>
-        {cryptos.map((crypto, index) => (
-          <Crypto key={crypto.id} crypto={crypto} index={index} />
+        {cryptos.filter((crypto) => (
+          crypto.name.includes(searched))).map((crypto, index) => (
+            <Crypto key={crypto.id} crypto={crypto} index={index} />
         ))}
       </div>
     </>

@@ -10,7 +10,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<HomePage />} />
-          <Route path="/details" element={<DetailsPage />} />
+          <Route path="/details/:id" element={<DetailsPage />} />
         </Routes>
       </main>
     </div>

@@ -1,5 +1,5 @@
 .crypto {
-  padding: 3rem 1rem;
+  padding: 1rem;
   color: #fff;
   word-wrap: break-word;
   font-size: 1.5rem;
@@ -7,6 +7,10 @@
   display: flex;
   align-items: flex-end;
   flex-direction: column;
+}
+
+.crypto:hover {
+  cursor: pointer;
 }
 
 .darkerBlue {

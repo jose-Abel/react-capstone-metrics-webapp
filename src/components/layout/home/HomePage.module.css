@@ -1,5 +1,5 @@
 .cryptos {
-  margin: 15rem 5rem;
+  margin: 5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
