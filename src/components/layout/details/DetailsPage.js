@@ -27,7 +27,7 @@ const DetailsPage = () => {
         aria-label="Back button"
       />
       <header className={classes.detailsHeader}>
-        <img src={crypto.image} alt={crypto.name} />
+        <img src={crypto.image} alt={crypto.name} className={classes.detailsImage} />
         <p>
           {crypto.name}
         </p>
@@ -35,21 +35,14 @@ const DetailsPage = () => {
       <div className={classes.card}>
         <p className={classes.rowContainer}>
           <span className={classes.rowText}>
-            All Time High
+            All Time High:
           </span>
           {' '}
           {crypto.ath}
         </p>
         <p className={classes.rowContainer}>
           <span className={classes.rowText}>
-            All Time High
-          </span>
-          {' '}
-          {crypto.ath}
-        </p>
-        <p className={classes.rowContainer}>
-          <span className={classes.rowText}>
-            All Time High Change Percentage
+            All Time High Change Percentage:
           </span>
           {' '}
           {crypto.ath_change_percentage}
@@ -57,7 +50,7 @@ const DetailsPage = () => {
 
         <p className={classes.rowContainer}>
           <span className={classes.rowText}>
-            Circulating Supply
+            Circulating Supply:
           </span>
           {' '}
           {crypto.circulating_supply}
@@ -65,7 +58,7 @@ const DetailsPage = () => {
 
         <p className={classes.rowContainer}>
           <span className={classes.rowText}>
-            Current Price
+            Current Price:
           </span>
           {' '}
           {crypto.current_price}
@@ -73,7 +66,7 @@ const DetailsPage = () => {
 
         <p className={classes.rowContainer}>
           <span className={classes.rowText}>
-            Highest Price last 24 hours
+            Highest Price last 24 hours:
           </span>
           {' '}
           {crypto.high_24h}
@@ -81,7 +74,7 @@ const DetailsPage = () => {
 
         <p className={classes.rowContainer}>
           <span className={classes.rowText}>
-            Lowest Price last 24 hours
+            Lowest Price last 24 hours:
           </span>
           {' '}
           {crypto.low_24h}
@@ -101,33 +94,3 @@ const DetailsPage = () => {
 };
 
 export default DetailsPage;
-
-/*
-ath: 686.31
-ath_change_percentage: -14.1262
-ath_date: "2021-05-10T07:24:17.097Z"
-atl: 0.0398177
-atl_change_percentage: 1480039.68197
-atl_date: "2017-10-19T00:00:00.000Z"
-circulating_supply: 168137035.9
-current_price: 587.97
-fully_diluted_valuation: 98939660242
-high_24h: 639.24
-id: "binancecoin"
-image: "https://assets.coingecko.com/coins/images/825/large/binance-coin-logo.png?1547034615"
-last_updated: "2021-11-16T22:04:43.927Z"
-low_24h: 575.88
-market_cap: 98939660242
-market_cap_change_24h: -8245621072.922806
-market_cap_change_percentage_24h: -7.69287
-market_cap_rank: 3
-max_supply: 168137035.9
-name: "Binance Coin"
-price_change_24h: -47.887937631762
-price_change_percentage_24h: -7.53125
-roi: null
-symbol: "bnb"
-total_supply: 168137035.9
-total_volume: 2961108361
-
-*/

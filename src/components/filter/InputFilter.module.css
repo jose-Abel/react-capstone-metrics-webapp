@@ -12,6 +12,9 @@
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-weight: lighter;
+  border-radius: 1rem;
+  background-color: #fff;
+  border: none;
 }
 
 .inputForm::placeholder {
@@ -20,4 +23,20 @@
 
 .inputForm:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .inputForm {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .inputForm {
+    height: 1.5rem;
+    width: 10rem;
+  }
+  .inputForm::placeholder {
+    font-size: 1.2rem;
+  }
 }
