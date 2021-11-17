@@ -50,7 +50,7 @@ That's all, you are ready to go!
 
 # Live Demo
 
-[Metrics Web App](https://jose-abel-metrics-webapp.netlify.app/details/wrapped-bitcoin)
+[Metrics Web App](https://jose-abel-metrics-webapp.netlify.app/)
 
 ### Install
 
