@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="crypto darkerBlue"
+        class="crypto"
         role="button"
         tabindex="0"
       >
@@ -28,7 +28,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="crypto darkerBlue"
+      class="crypto"
       role="button"
       tabindex="0"
     >

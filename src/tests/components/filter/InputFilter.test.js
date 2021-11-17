@@ -23,6 +23,6 @@ describe('Complete functionality', () => {
     const input = document.querySelector('.inputForm');
 
     fireEvent.change(input, { target: { value: 'Bitcoin' } });
-    expect(hasInputValue(input, 'Bitcoin')).toBe(true);
+    expect(hasInputValue(input, 'bitcoin')).toBe(true);
   });
 });
