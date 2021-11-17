@@ -19,7 +19,7 @@ const InputFilter = ({ setSearched }) => {
 };
 
 InputFilter.defaultProps = {
-  setSearched: '',
+  setSearched() {},
 };
 
 InputFilter.propTypes = {

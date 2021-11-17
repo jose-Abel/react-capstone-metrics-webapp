@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCryptosList } from '../../../redux/cryptos/cryptos';
 import Crypto from '../../crypto/Crypto';

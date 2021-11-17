@@ -1,14 +1,12 @@
 import React from 'react';
-import { useParams } from 'react-router';
 import { useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import classes from './DetailsPage.module.css';
 
 const DetailsPage = () => {
-  const params = useParams();
+  const { id } = useParams();
   const cryptos = useSelector((state) => state);
-  const crypto = cryptos.filter((cryp) => cryp.id === params.id)[0];
-
+  const crypto = cryptos.filter((cryp) => cryp.id === id)[0];
   const navigate = useNavigate();
 
   const handleClickIcon = () => {

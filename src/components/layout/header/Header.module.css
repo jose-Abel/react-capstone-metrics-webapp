@@ -1,0 +1,25 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.headerImage {
+  margin-right: 2rem;
+  width: 15rem;
+  height: 15rem;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+.headerText {
+  font-size: 4rem;
+  color: #fff;
+}
