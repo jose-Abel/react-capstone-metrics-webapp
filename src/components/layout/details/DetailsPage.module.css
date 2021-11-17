@@ -43,13 +43,16 @@
   .fontawesomeIcon {
     font-size: 3rem;
   }
+
   .detailsImage {
     width: 8rem;
     height: 8rem;
   }
+
   .detailsHeader {
     font-size: 3rem;
   }
+
   .card {
     font-size: 2rem;
   }
@@ -59,13 +62,16 @@
   .fontawesomeIcon {
     font-size: 1.5rem;
   }
+
   .detailsImage {
     width: 4rem;
     height: 4rem;
   }
+
   .detailsHeader {
     font-size: 1.5rem;
   }
+
   .card {
     font-size: 1.5rem;
   }

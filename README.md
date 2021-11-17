@@ -30,6 +30,10 @@ The webapp have 2 pages:
 - https://www.coingecko.com/en/api/documentation
 - https://testing-library.com/docs/dom-testing-library/
 
+## Video
+
+https://jose-abel-metrics-webapp.netlify.app/details/wrapped-bitcoin
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
