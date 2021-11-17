@@ -9,15 +9,16 @@
   margin-right: 2rem;
   width: 15rem;
   height: 15rem;
-  clip-path: polygon(
-    50% 0%,
-    90% 20%,
-    100% 60%,
-    75% 100%,
-    25% 100%,
-    0% 60%,
-    10% 20%
-  );
+  clip-path:
+    polygon(
+      50% 0%,
+      90% 20%,
+      100% 60%,
+      75% 100%,
+      25% 100%,
+      0% 60%,
+      10% 20%
+    );
 }
 
 .headerText {
@@ -29,6 +30,7 @@
   .headerText {
     font-size: 2rem;
   }
+
   .headerImage {
     width: 10rem;
     height: 10rem;
@@ -39,6 +41,7 @@
   .headerText {
     font-size: 1.3rem;
   }
+
   .headerImage {
     width: 5rem;
     height: 5rem;
