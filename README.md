@@ -32,7 +32,7 @@ The webapp have 2 pages:
 
 ## Video
 
-https://jose-abel-metrics-webapp.netlify.app/details/wrapped-bitcoin
+https://www.loom.com/share/a526a867f90242fb963601b318b877a5
 
 ## Getting Started
 
