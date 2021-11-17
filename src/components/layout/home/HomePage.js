@@ -27,8 +27,8 @@ const HomePage = () => {
       <InputFilter setSearched={setSearched} />
       <div className={classes.cryptos}>
         {cryptos.filter((crypto) => (
-          crypto.name.includes(searched))).map((crypto, index) => (
-            <Crypto key={crypto.id} crypto={crypto} index={index} />
+          crypto.name.toLowerCase().includes(searched))).map((crypto) => (
+            <Crypto key={crypto.id} crypto={crypto} />
         ))}
       </div>
     </>

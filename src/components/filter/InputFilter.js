@@ -7,8 +7,8 @@ const InputFilter = ({ setSearched }) => {
 
   const changeInput = (e) => {
     e.preventDefault();
-    setSearchCrypto(e.target.value);
-    setSearched(e.target.value);
+    setSearchCrypto(e.target.value.toLowerCase());
+    setSearched(e.target.value.toLowerCase());
   };
 
   return (

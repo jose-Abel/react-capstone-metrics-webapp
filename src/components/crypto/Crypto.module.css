@@ -13,15 +13,14 @@
   cursor: pointer;
 }
 
-.darkerBlue {
-  background-color: #3f61a2;
-}
-
-.lighterBlue {
-  background-color: #4269b0;
-}
-
 .cryptoImage {
   width: 5rem;
   height: 5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .crypto {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
 }

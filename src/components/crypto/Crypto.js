@@ -3,17 +3,12 @@ import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import classes from './Crypto.module.css';
 
-const Crypto = ({ crypto, index }) => {
+const Crypto = ({ crypto }) => {
   const {
     id, image, name, symbol,
   } = crypto;
 
   const navigate = useNavigate();
-
-  let backgroundDynamic = classes.lighterBlue;
-  if (index % 2 === 0) {
-    backgroundDynamic = classes.darkerBlue;
-  }
 
   const handleClick = () => {
     const path = `/details/${id}`;
@@ -22,7 +17,7 @@ const Crypto = ({ crypto, index }) => {
 
   return (
     <div
-      className={`${classes.crypto} ${backgroundDynamic}`}
+      className={classes.crypto}
       onClick={handleClick}
       onKeyDown={handleClick}
       role="button"
@@ -42,7 +37,6 @@ const Crypto = ({ crypto, index }) => {
 };
 
 Crypto.defaultProps = {
-  index: 0,
   crypto: {
     id: '',
     symbol: '',
@@ -58,7 +52,6 @@ Crypto.propTypes = {
     name: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
   }),
-  index: PropTypes.number,
 };
 
 export default Crypto;
