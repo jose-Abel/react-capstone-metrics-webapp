@@ -1,5 +1,3 @@
-/* eslint-disable no-labels */
-/* eslint-disable no-restricted-syntax */
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import * as Redux from 'react-redux';

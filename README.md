@@ -2,7 +2,16 @@
 
 # Metrics Webapp - Jose Abel Ramirez Frontany
 
-<!-- ![screenshot]() -->
+React Capstone where I have to build about building a mobile web application to check a list of metrics (numeric values) making use of React and Redux. I selected an API that provides numeric data about a topic that I like and then build the webapp around it. I choose the API of "CoinGecko API V3".
+
+The webapp have 2 pages:
+
+- The first page with a list of items that could be filtered by some parameters; in my implementation, it's a list of cryptocurrencies that can be filtered by the name of the cryptocurrency. This page is my homepage.
+
+- The second page for the item details; in my implementation, the detail page routes to the details of a particular cryptocurrency once is clicked.
+
+![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot2.png)
 
 ## Built With
 
@@ -12,10 +21,14 @@
 - Redux-Thunk
 - React-Router
 - Fetch
-- Webpack
-- Babel
+- Jest
 - HTML
 - CSS
+
+## Documentation
+
+- https://www.coingecko.com/en/api/documentation
+- https://testing-library.com/docs/dom-testing-library/
 
 ## Getting Started
 
@@ -30,6 +43,10 @@ Go to the top of the page, press te green button that says "Code", and copy the 
 ```
 
 That's all, you are ready to go!
+
+# Live Demo
+
+[Metrics Web App]()
 
 ### Install
 
