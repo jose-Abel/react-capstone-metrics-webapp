@@ -1,0 +1,78 @@
+.fontawesomeIcon {
+  font-size: 5rem;
+  position: absolute;
+  top: 4rem;
+  left: 2rem;
+}
+
+.fontawesomeIcon:hover {
+  cursor: pointer;
+}
+
+.detailsHeader {
+  display: flex;
+  font-size: 5rem;
+  justify-content: space-around;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.card {
+  border: 1px solid #fff;
+  text-align: center;
+  margin: 2rem auto;
+  width: 80%;
+  font-weight: bolder;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+}
+
+.rowText {
+  color: #fff;
+}
+
+.rowContainer {
+  padding: 2rem;
+}
+
+.rowContainer:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .fontawesomeIcon {
+    font-size: 3rem;
+  }
+
+  .detailsImage {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .detailsHeader {
+    font-size: 3rem;
+  }
+
+  .card {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .fontawesomeIcon {
+    font-size: 1.5rem;
+  }
+
+  .detailsImage {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .detailsHeader {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    font-size: 1.5rem;
+  }
+}

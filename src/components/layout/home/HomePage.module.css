@@ -1,0 +1,26 @@
+.cryptos {
+  margin: 4rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.cryptos > *:nth-child(odd) {
+  background-color: #3f61a2;
+}
+
+.cryptos > *:not(:nth-child(odd)) {
+  background-color: #4269b0;
+}
+
+@media only screen and (max-width: 900px) {
+  .cryptos {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cryptos {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,26 @@
+.crypto {
+  padding: 1rem;
+  color: #fff;
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.crypto:hover {
+  cursor: pointer;
+}
+
+.cryptoImage {
+  width: 5rem;
+  height: 5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .crypto {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+}
